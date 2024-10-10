@@ -8,6 +8,7 @@ namespace DogTest
 {
     internal class Dog
     {
+
         public void Bark() 
         {
             //printf的な奴
