@@ -10,14 +10,17 @@ namespace DogTest
     {
         static void Main(string[] args)
         {
-            Dog hachi = new Dog();
-            hachi.Bark();
-
             Dog pochi = new Dog();
-            pochi.Bark();
-            pochi.Run();
-            Console.ReadLine();
 
+            Console.WriteLine("空腹状態 : {0}", pochi.InHungry());
+
+            pochi.Eat();
+            Console.WriteLine("空腹状態 : {0}", pochi.InHungry());
+
+            pochi.Run();
+            Console.WriteLine("空腹状態 : {0}", pochi.InHungry());
+
+            Console.ReadLine();
 
         }
     }
