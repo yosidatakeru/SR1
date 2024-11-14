@@ -12,6 +12,7 @@ namespace Player
         {
             //ここで引数に値を入れる
             Player player = new Player("ロト",1);
+            //player.level = 99;
 
             Console.WriteLine("名前 : {0}", player.GetName());
             Console.WriteLine("レベル : {0}", player.GetLevel());

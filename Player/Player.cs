@@ -11,6 +11,7 @@ namespace Player
     {
         private string name;
         private int level;
+        //public int level;
 
         //コンストラクタ
         public Player(string name, int lever)
